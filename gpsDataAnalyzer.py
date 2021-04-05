@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
+#File to read from
 filename = "unreadableData.txt"
+#File to write to
 outputLog = open ('readableData.txt', 'a')
 
 def is_valid_NMEA_command(line):
