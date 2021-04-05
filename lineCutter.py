@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #File from where to read
-filename = "data2.txt"
+filename = "data.txt"
 #File to write to
 outputLog = open ('unreadData2.txt', 'a')
 
