@@ -56,13 +56,13 @@ def parse_NMEA_line (line):
 
 
 
-lineCount = 1
+#lineCount = 1
 
 with open(filename) as f:
         content = f.readlines()
 
 for line in content:
-	print(lineCount)
-	lineCount += 1
+#	print(lineCount)
+#	lineCount += 1
 	if is_valid_NMEA_command(line):
 		parse_NMEA_line(line)

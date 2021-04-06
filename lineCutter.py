@@ -3,7 +3,7 @@
 #File from where to read
 filename = "data.txt"
 #File to write to
-outputLog = open ('unreadData2.txt', 'a')
+outputLog = open ('unreadableData.txt', 'a')
 
 with open(filename) as f:
 	content = f.readlines()
