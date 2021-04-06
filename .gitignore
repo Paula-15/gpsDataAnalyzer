@@ -5,4 +5,4 @@ gpsinfo.txt
 unreadData2.txt
 data.txt
 ..gitignore.swp
-
+gpsInfo*.txt
