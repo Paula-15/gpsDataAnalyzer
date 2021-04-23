@@ -25,7 +25,8 @@ outputLog.flush()
 #outputlog.flush()
 sleep(4)
 '''
-filename = open('/home/samu/Documents/pruebagps/prueba.txt', encoding='utf-8')
+#filename = open('/home/samu/Documents/pruebagps/prueba.txt', encoding='utf-8')
+filename = open('gpsData.txt')
 salida = open ('decode.txt', 'w+')
 for line in filename.readlines():
 	msg = pynmea2.parse(line)
